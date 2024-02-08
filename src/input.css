@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 .icons{
-    @apply w-6 h-6
+    @apply w-4 h-4
 }
 
 .profile-pic{
-    @apply w-14 h-14
+    @apply w-12 h-12
+}
+
+.message-input:focus + .search-icon-container {
+    display: none;
 }

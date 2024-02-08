@@ -6,7 +6,8 @@ module.exports = {
       colors: {
         'cultured': '#F7F5F4',
         'spanish-gray':"#A19791",
-        'neon-orange':"#FF731D"
+        'neon-orange':"#FF731D",
+        'online-green':"#82CF9C"
       },
     }
   },
