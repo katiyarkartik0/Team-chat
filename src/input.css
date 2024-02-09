@@ -13,3 +13,8 @@
 .message-input:focus + .search-icon-container {
     display: none;
 }
+
+.donut {
+    background: conic-gradient(#FFE0C9 0deg 130deg,#82CF9C 130deg 360deg);
+    border-radius: 50%;
+}
