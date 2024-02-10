@@ -9,12 +9,15 @@
 </head>
 
 <body>
-    <div class="flex m-auto min-w-[1470px] overflow-x-scroll">
+    <div class="flex m-auto min-w-[1470px] overflow-x-scroll scroll-py-2.5">
         <div class="flex justify-center items-center pt-4 [width:7%] pb-4">
             <div class="flex flex-col items-center w-10 p-1 h-full">
-                <img class="icons mb-20 mt-8" src="./assets/app_logo.png" alt="app logo" />
-                <div class="flex flex-col space-y-7">
+                <img class="mb-20" src="./assets/app_logo.png" alt="app logo" />
+                <div class="flex flex-col items-center justify-center space-y-7">
                     <img class="icons" src="./assets/menu.png" alt="menu" />
+                    <div
+                        class="w-10 h-10 bg-neon-orange rounded-full flex items-center justify-center text-white ml-auto mb-auto mt-auto">
+                        <img src="./assets/chat_icon.png"></div>
                     <img class="icons" src="./assets/profile.png" alt="profile" />
                     <img class="icons" src="./assets/call.png" alt="call" />
                     <img class="w-3 m-auto" src="./assets/save.png" alt="save" />
@@ -358,7 +361,7 @@
 
             </div>
         </div>
-        <div class="[width:26%] h-screen justify-around">
+        <div class="[width:26%] h-screen justify-around overflow-y-scroll border-s-2 border-s-gray">
             <div class="flex flex-col space-x-4 p-6 items-center">
                 <img class="w-[74px] h-[74px]" src="./assets/college_group.png">
                 <div class="flex flex-col items-center justify-center">
@@ -376,7 +379,7 @@
             </div>
             <hr>
             <div class="flex w-full items-center p-6">
-                <button ><img src="./assets/pic_x_dark.png"></button>
+                <button><img src="./assets/pic_x_dark.png"></button>
                 <p class="ml-4 font-semibold text-base">Shared Media</p>
                 <button class="ml-auto"><img src="./assets/tripple_dot.png"></button>
             </div>
@@ -387,155 +390,64 @@
                 <button class="m-2"><img src="./assets/building-4.png"></button>
             </div>
             <div class="flex w-full items-center p-6">
-                <button ><img src="./assets/clipboard_x_dark.png"></button>
+                <button><img src="./assets/clipboard_x_dark.png"></button>
                 <p class="ml-4 font-semibold text-base">Shared Files</p>
             </div>
-            <!-- <div class="p-3 space-y-2">
-                <p class="font-bold text-2xl">Online now</p>
-                <div class="flex justify-between">
-                    <div class="relative">
-                        <img class="profile-pic" src="./assets/friend_1.png">
-                        <div class="w-3 h-3 rounded-full bg-online-green absolute right-0 bottom-1"></div>
+            <div>
+                <div class="flex px-6 py-2 items-center">
+                    <button class="w-10 h-10 bg-cultured rounded-full flex justify-center items-center">
+                        <img class="" src="./assets/clipboard_x_dark.png" alt="video_call">
+                    </button>
+                    <div class="ml-2">
+                        <p class="font-medium text-sm">Architecture21.doc</p>
+                        <p class="font-normal text-xs text-spanish-gray">
+                            04/09/2023 at 09:34am
+                        </p>
                     </div>
-                    <div class="relative">
-                        <img class="profile-pic" src="./assets/friend_2.png">
-                        <div class="w-3 h-3 rounded-full bg-online-green absolute right-0 bottom-1"></div>
+                    <button class="ml-auto"><img src="./assets/tripple_dot.png"></button>
+                </div>
+                <div class="flex px-6 py-2 items-center">
+                    <button class="w-10 h-10 bg-cultured rounded-full flex justify-center items-center">
+                        <img class="" src="./assets/clipboard_x_dark.png" alt="video_call">
+                    </button>
+                    <div class="ml-2">
+                        <p class="font-medium text-sm">Architechture28.doc</p>
+                        <p class="font-normal text-xs text-spanish-gray">
+                            02/09/2023 at 10:43am
+                        </p>
                     </div>
-                    <div class="relative">
-                        <img class="profile-pic" src="./assets/friend_3.png">
-                        <div class="w-3 h-3 rounded-full bg-online-green absolute right-0 bottom-1"></div>
+                    <button class="ml-auto"><img src="./assets/tripple_dot.png"></button>
+                </div>
+                <div class="flex px-6 py-2 items-center">
+                    <button class="w-10 h-10 bg-cultured rounded-full flex justify-center items-center">
+                        <img class="" src="./assets/clipboard_x_dark.png" alt="video_call">
+                    </button>
+                    <div class="ml-2">
+                        <p class="font-medium text-sm">Architechture16.doc</p>
+                        <p class="font-normal text-xs text-spanish-gray">
+                            01/09/2023 at 08:21am
+                        </p>
                     </div>
-                    <div class="relative">
-                        <img class="profile-pic" src="./assets/friend_4.png">
-                        <div class="w-3 h-3 rounded-full bg-online-green absolute right-0 bottom-1"></div>
-                    </div>
-                    <div class="relative">
-                        <div class="w-12 h-12 bg-[#FBE5D9] rounded-full"></div>
-                        <p class="absolute text-neon-orange font-semibold translate-x-1/2 -translate-y-1/2 top-1/2">18+
+                    <button class="ml-auto"><img src="./assets/tripple_dot.png"></button>
+                </div>
+            </div>
+            <div class="flex w-full items-center p-6">
+                <button><img src="./assets/link_x_dark.png"></button>
+                <p class="ml-4 font-semibold text-base">Shared Links</p>
+            </div>
+            <div>
+                <div class="flex px-6 py-2 items-center">
+                    <button class="w-10 h-10 bg-cultured rounded-full flex justify-center items-center">
+                        <img class="" src="./assets/link_x_dark.png" alt="video_call">
+                    </button>
+                    <div class="ml-2">
+                        <p class="font-medium text-sm">https://dribbble/hafsadeartisto........</p>
+                        <p class="font-normal text-xs text-spanish-gray">
+                            04/09/2023 at 09:34am
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="pl-3 pr-6 space-y-4 flex flex-col">
-                <div class="flex w-full items-center mt-3">
-                    <p class="font-bold text-xl">Messages</p>
-                    <img class="icons ml-auto mr-2" src="./assets/paper_pen.png" alt="info" />
-                    <img class="icons" src="./assets/heart.png" alt="info" />
-                </div>
-                <div class="relative">
-                    <input type="text"
-                        class="w-full h-11 rounded-2xl shadow-[0_4px_34px_#FF731D1A] focus:outline-none flex items-center justify-center pl-7 message-input">
-                    <div class="search-icon-container absolute top-[10px] left-7 flex flex-grow space-x-2 items-center">
-                        <img class="icons" src="./assets/magnifying_glass.png" alt="magnifying_glass">
-                        <span class="text-spanish-gray font-normal text-sm">Search</span>
-                    </div>
-                </div>
-            </div>
-            <div class="p-2 space-y-4 flex flex-col overflow-y-scroll">
-                <div class="flex items-center p-2">
-                    <div class="relative">
-                        <img class="profile-pic" src="./assets/mariana_jolly.png">
-                        <div class="w-3 h-3 rounded-full bg-online-green absolute right-0 bottom-1"></div>
-                    </div>
-                    <div class="space-y-2 ml-2">
-                        <p class="font-semibold text-base">Mariana Jolly</p>
-                        <div class="flex items-center space-x-2">
-                            <img class="icons" src="./assets/pen.png" alt="magnifying_glass">
-                            <span class="text-spanish-gray font-normal text-sm">Mariana is typing...</span>
-                        </div>
-                    </div>
-                    <div
-                        class="w-8 h-8 bg-neon-orange rounded-full flex items-center justify-center text-white ml-auto mb-auto mt-auto">
-                        2</div>
-                </div>
-                <div class="flex items-center p-2">
-                    <div class="relative">
-                        <img class="profile-pic" src="./assets/friend_4.png">
-                        <div class="w-3 h-3 rounded-full bg-online-green absolute right-0 bottom-1"></div>
-                    </div>
-                    <div class="space-y-2 ml-2">
-                        <p class="font-semibold text-base">Jackson Roy</p>
-                        <div class="flex items-center space-x-2">
-                            <img class="icons" src="./assets/picture.png" alt="picture">
-                            <span class="text-spanish-gray font-normal text-sm">Sent a picture</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex items-center p-2">
-                    <div class="relative">
-                        <img class="profile-pic" src="./assets/hafsa_shaikh.png">
-                        <div class="w-3 h-3 rounded-full bg-online-green absolute right-0 bottom-1"></div>
-                    </div>
-                    <div class="space-y-2 ml-2">
-                        <p class="font-semibold text-base">Hafsa Shaikh</p>
-                        <div class="flex items-center space-x-2">
-                            <span class="text-spanish-gray font-normal text-sm">Meet me before presentation...</span>
-                        </div>
-                    </div>
-                    <div
-                        class="w-8 h-8 bg-neon-orange rounded-full flex items-center justify-center text-white ml-auto mb-auto mt-auto">
-                        3</div>
-                </div>
-                <div class="flex items-center p-2">
-                    <div class="relative">
-                        <img class="profile-pic" src="./assets/alix_joseph.png">
-                        <div class="w-3 h-3 rounded-full bg-online-green absolute right-0 bottom-1"></div>
-                    </div>
-                    <div class="space-y-2 ml-2">
-                        <p class="font-semibold text-base">Alix Joseph</p>
-                        <div class="flex items-center space-x-2">
-                            <img class="icons" src="./assets/pen.png" alt="magnifying_glass">
-                            <span class="text-spanish-gray font-normal text-sm">How did you prepared...</span>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="flex items-center bg-white p-2 rounded-2xl shadow-[0_4px_34px_#FF731D1A]">
-                    <div class="relative">
-                        <img class="profile-pic" src="./assets/college_group.png">
-                        <div class="w-3 h-3 rounded-full bg-online-green absolute right-0 bottom-1"></div>
-                    </div>
-                    <div class="space-y-2 ml-2">
-                        <p class="font-semibold text-base">College Group</p>
-
-                        <div class="flex items-center space-x-2">
-                            <span>You: </span>
-                            <span class="text-spanish-gray font-normal text-sm">What about wednesday...</span>
-                        </div>
-                    </div>
-                    <div class="font-normal text-xs mb-auto ml-auto flex items-center justify-center text-spanish-gray">
-                        09:35</div>
-                </div>
-                <div class="flex items-center p-2">
-                    <div class="relative">
-                        <img class="profile-pic" src="./assets/rockstar_benj.png">
-                        <div class="w-3 h-3 rounded-full bg-online-green absolute right-0 bottom-1"></div>
-                    </div>
-                    <div class="space-y-2 ml-2">
-                        <p class="font-semibold text-base">Rockstart Benj</p>
-                        <div class="flex items-center space-x-2">
-                            <img class="icons" src="./assets/paper_clip.png" alt="magnifying_glass">
-                            <span class="text-spanish-gray font-normal text-sm">Sent an attachment</span>
-                        </div>
-                    </div>
-                    <div
-                        class="w-8 h-8 bg-neon-orange rounded-full flex items-center justify-center text-white ml-auto mb-auto mt-auto">
-                        2</div>
-                </div>
-                <div class="flex items-center p-2">
-                    <div class="relative">
-                        <img class="profile-pic" src="./assets/max_hob.png">
-                        <div class="w-3 h-3 rounded-full bg-online-green absolute right-0 bottom-1"></div>
-                    </div>
-                    <div class="space-y-2 ml-2">
-                        <p class="font-semibold text-base">Max Hob</p>
-                        <div class="flex items-center space-x-2">
-                            <span class="text-spanish-gray font-normal text-sm">Next presentation will be...</span>
-                        </div>
-                    </div>
-
-                </div>
-            </div> -->
         </div>
 
     </div>

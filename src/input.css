@@ -18,3 +18,24 @@
     background: conic-gradient(#FFE0C9 0deg 130deg,#82CF9C 130deg 360deg);
     border-radius: 50%;
 }
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+Track
+::-webkit-scrollbar-track {
+    background: #888;
+    border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 5px;
+}
+ 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
